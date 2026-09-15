@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (scripts/ tooling)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Logs and local scratch output from the automation scripts
+*.local.log
+/tmp/
+/.scratch/
+
+# Never commit real project secrets if this framework is copied into a
+# real project directory instead of used as a template reference.
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.*
